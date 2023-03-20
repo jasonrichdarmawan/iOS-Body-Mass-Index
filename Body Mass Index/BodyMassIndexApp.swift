@@ -12,7 +12,7 @@ struct BodyMassIndexApp: App {
     var body: some Scene {
         WindowGroup {
             // by using the `constant` function, we create a binding to a constant value that cannot be modified, which is suitable for previewing the view.
-            CalculatorView(weight: .constant(70), height: .constant(172), savedHistories: .constant([]))
+            ContentView()
         }
     }
 }
